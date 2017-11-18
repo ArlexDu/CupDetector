@@ -85,7 +85,7 @@ def main():
     xmlpath = os.path.join(os.getcwd(), 'data')
     writer = tf.python_io.TFRecordWriter(xmlpath+'/train.record')
     imgpath = os.path.join(os.getcwd(), 'images')
-    examples = pd.read_csv(xmlpath+'/cup_labels.csv')
+    examples = pd.read_csv(xmlpath+'/train.csv')
     grouped = split(examples, 'filename')
     for group in grouped:
         tf_example = create_tf_example(group, imgpath)
