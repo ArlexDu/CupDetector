@@ -1,0 +1,26 @@
+<annotation>
+	<folder>马克杯</folder>
+	<filename>33.jpg</filename>
+	<path>/Users/summer/Documents/PartenReconiction2017/homework2/ImageClawer/BaiduImageSpider/马克杯/33.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>595</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>77</xmin>
+			<ymin>132</ymin>
+			<xmax>483</xmax>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+</annotation>
